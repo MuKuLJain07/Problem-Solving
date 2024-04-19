@@ -2,14 +2,13 @@ class TrieNode{
     public:
     bool isTerminated;
     TrieNode* children[26];
-    int commonPrefixNames;
+    set<string> commonPrefixNames;
 
     TrieNode(){
         this->isTerminated = false;
         for(int i = 0; i < 26; i++){
             this->children[i] = NULL;
         }
-        this->commonPrefixNames = 0;
     }
 };
 
@@ -24,7 +23,7 @@ class Trie{
                 temp->children[index] = new TrieNode();
             }
             temp = temp->children[index];
-            temp->commonPrefixNames+=1;
+            temp->commonPrefixNames.insert(word);
         }
         temp->isTerminated = true;
     }
@@ -43,14 +42,36 @@ class Trie{
     }
 
     // prints all the distinct contacts which have the same prefix as given string in lexicographical increasing order
-    void searchQueryHelper(TrieNode* root, string word, int &ans){
+    void searchQueryHelper(TrieNode* root, string word, vector<vector<string>> &ans){
         TrieNode* temp = root;
         for(char x:word){
             int index = x - 'a';
-            temp = temp->children[index];
-            ans+=(temp->commonPrefixNames);
+            if(temp != NULL && temp->children[index] == NULL){
+                // cout<<0;
+                vector<string> tempVec;
+                tempVec.push_back("0");
+                ans.push_back(tempVec);
+                temp = temp->children[index];
+            }
+            else if(temp == NULL){
+                vector<string> tempVec;
+                tempVec.push_back("0");
+                ans.push_back(tempVec); 
+            }
+            else{
+                temp = temp->children[index];
+                vector<string> tempVec;
+                for(auto itr = temp->commonPrefixNames.begin(); itr != temp->commonPrefixNames.end(); itr++){
+                    
+                    // cout<<temp->commonPrefixNames[i]<<" ";
+                    // tempVec.push_back(temp->commonPrefixNames[i]);
+                    tempVec.push_back(*itr);
+                }
+                // sort(tempVec.begin(), tempVec.end());
+                ans.push_back(tempVec);
+            } 
+            // cout<<"\n";
         }
-
     }
 
     public:
@@ -62,7 +83,7 @@ class Trie{
     }
 
     // insert all the strings from the given array into Trie
-    void insertIntoTrie(vector<string> &contact, int n){
+    void insertIntoTrie(string contact[], int n){
         for(int i = 0; i < n; i++){
             insertIntoTrieHelper(root, contact[i]);
         }
@@ -74,41 +95,20 @@ class Trie{
     }
 
     // prints all the distinct contacts which have the same prefix as given string in lexicographical increasing order
-    void searchQuery(string word, vector<int> &ans){
-        int tempAns = 0;
-        // for(int i = 1; i<=word.size(); i++){
-        //     searchQueryHelper(root, word.substr(0,i), tempAns);
-        // } 
-        searchQueryHelper(root, word, tempAns);
-
-        ans.push_back(tempAns);
+    void searchQuery(string word, vector<vector<string>> &ans){
+        searchQueryHelper(root, word, ans);
     }
 
 };
 
-// class Solution{
-// public:
-//     vector<vector<string>> displayContacts(int n, string contact[], string s)
-//     {
-//         vector<vector<string>> ans;
-//         Trie* t = new Trie();
-//         t->insertIntoTrie(contact,n);
-//         t->searchQuery(s,ans);
-//         return ans;
-//     }
-// };
-
-class Solution {
+class Solution{
 public:
-    vector<int> sumPrefixScores(vector<string>& words) {
-        vector<int> ans;
+    vector<vector<string>> displayContacts(int n, string contact[], string s)
+    {
+        vector<vector<string>> ans;
         Trie* t = new Trie();
-        t->insertIntoTrie(words,words.size());
-        
-        // searching every possible query
-        for(auto word: words){
-            t->searchQuery(word,ans);
-        }
+        t->insertIntoTrie(contact,n);
+        t->searchQuery(s,ans);
         return ans;
     }
 };
