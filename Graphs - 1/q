@@ -1,19 +1,13 @@
 https://www.interviewbit.com/problems/largest-distance-between-nodes-of-a-tree/
-https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
 
 
 Graphs 2(14.04.2024)
-https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/description/
 https://www.interviewbit.com/problems/valid-path/
 https://www.interviewbit.com/problems/knight-on-chess-board/
 
 Graphs 3(18.04.2024)
-https://www.geeksforgeeks.org/problems/minimum-edges/1
-https://leetcode.com/problems/course-schedule/description/
 https://leetcode.com/problems/course-schedule-ii/description/
-https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/
 https://leetcode.com/problems/largest-color-value-in-a-directed-graph/description/
-https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
 
 
 Graphs 4(19.04.2024)
@@ -22,3 +16,25 @@ https://leetcode.com/problems/is-graph-bipartite/description/
 https://leetcode.com/problems/clone-graph/ (just practice once)
 https://leetcode.com/problems/shortest-cycle-in-a-graph/description/ (try)
 https://codeforces.com/problemset/problem/1093/D
+
+
+Graphs 5(21.04.2024)
+https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/description/
+https://leetcode.com/problems/path-with-maximum-probability/description/
+https://leetcode.com/problems/network-delay-time/description/
+https://leetcode.com/problems/path-with-minimum-effort/description/
+https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/description/
+https://leetcode.com/problems/cheapest-flights-within-k-stops/description/
+https://leetcode.com/problems/find-edges-in-shortest-paths/description/ (try)
+
+
+Graphs 6(21.04.2024)
+https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/description/
+https://leetcode.com/problems/min-cost-to-connect-all-points/description/
+https://leetcode.com/problems/redundant-connection-ii/description/
+
+
+Graphs 7(28.04.2024)
+https://leetcode.com/problems/redundant-connection/description/
+https://leetcode.com/problems/couples-holding-hands/description/
+
