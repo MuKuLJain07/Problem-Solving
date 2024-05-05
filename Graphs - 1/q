@@ -5,14 +5,12 @@ Graphs 2(14.04.2024)
 https://www.interviewbit.com/problems/valid-path/
 https://www.interviewbit.com/problems/knight-on-chess-board/
 
-Graphs 3(18.04.2024)
-https://leetcode.com/problems/course-schedule-ii/description/
+Graphs 3(18.04.2024) 
 https://leetcode.com/problems/largest-color-value-in-a-directed-graph/description/
 
 
 Graphs 4(19.04.2024)
 https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1
-https://leetcode.com/problems/is-graph-bipartite/description/
 https://leetcode.com/problems/clone-graph/ (just practice once)
 https://leetcode.com/problems/shortest-cycle-in-a-graph/description/ (try)
 https://codeforces.com/problemset/problem/1093/D
@@ -38,3 +36,29 @@ Graphs 7(28.04.2024)
 https://leetcode.com/problems/redundant-connection/description/
 https://leetcode.com/problems/couples-holding-hands/description/
 
+
+Dynamic Programming 1(28.04.2024)
+https://leetcode.com/problems/perfect-squares/description/
+https://www.geeksforgeeks.org/problems/adjacents-are-not-allowed3528/1
+https://leetcode.com/problems/house-robber/
+https://leetcode.com/problems/house-robber-ii/
+https://leetcode.com/problems/solving-questions-with-brainpower/
+
+Dynamic Programming 2(28.04.2024)
+https://www.geeksforgeeks.org/problems/friends-pairing-problem5425/1
+https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/
+https://leetcode.com/problems/decode-ways/description/
+https://leetcode.com/problems/decode-ways-ii/description/ (try)
+https://www.geeksforgeeks.org/given-array-three-numbers-maximize-x-ai-y-aj-z-ak/
+
+
+Miscellaneous
+Miscellaneous 1(23.04.2024)
+https://leetcode.com/problems/heaters/description/
+https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/description/
+https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/
+Miscellaneous 1(28.04.2024)
+https://leetcode.com/problems/fruit-into-baskets/description/
+https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/
+https://leetcode.com/problems/evaluate-division/description/
+https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/description/
