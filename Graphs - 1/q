@@ -29,12 +29,11 @@ https://leetcode.com/problems/redundant-connection/description/
 https://leetcode.com/problems/couples-holding-hands/description/
 
 
+
+
 Dynamic Programming 1(28.04.2024)
-https://leetcode.com/problems/perfect-squares/description/
 https://www.geeksforgeeks.org/problems/adjacents-are-not-allowed3528/1
-https://leetcode.com/problems/house-robber/
-https://leetcode.com/problems/house-robber-ii/
-https://leetcode.com/problems/solving-questions-with-brainpower/
+
 
 Dynamic Programming 2(28.04.2024)
 https://www.geeksforgeeks.org/problems/friends-pairing-problem5425/1
@@ -44,11 +43,38 @@ https://leetcode.com/problems/decode-ways-ii/description/ (try)
 https://www.geeksforgeeks.org/given-array-three-numbers-maximize-x-ai-y-aj-z-ak/
 
 
+Dynamic Programming 3(04.05.2024)
+https://leetcode.com/problems/coin-change/
+https://leetcode.com/problems/coin-change-ii/description/
+https://leetcode.com/problems/maximum-subarray/description/
+https://leetcode.com/problems/maximum-product-subarray/description/
+https://leetcode.com/problems/longest-increasing-subsequence/description/
+https://cses.fi/problemset/task/1633
+https://cses.fi/problemset/task/1634
+https://cses.fi/problemset/task/1636
+
+
+Dynamic Programming 4(04.05.2024)
+https://leetcode.com/problems/length-of-the-longest-subsequence-that-sums-to-target/
+https://leetcode.com/problems/number-of-longest-increasing-subsequence/description/
+https://leetcode.com/problems/unique-paths/description/
+https://leetcode.com/problems/unique-paths-ii/
+https://leetcode.com/problems/minimum-path-cost-in-a-grid/
+https://leetcode.com/problems/minimum-path-sum/
+
+Dynamic Programming 5(05.05.2024)
+https://leetcode.com/problems/dungeon-game/
+https://leetcode.com/problems/longest-common-subsequence/
+https://leetcode.com/problems/shortest-common-supersequence/description/
+
+
+
 Miscellaneous
 Miscellaneous 1(23.04.2024)
 https://leetcode.com/problems/heaters/description/
 https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/description/
 https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/
+
 Miscellaneous 1(28.04.2024)
 https://leetcode.com/problems/fruit-into-baskets/description/
 https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/
